@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="4668433a-d9a5-479e-8d24-b3d194496840" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:2934/WSaritmetica.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="WSaritmetica.disco" MetadataType="Disco" ID="ec6fbed3-cf4e-4c71-bfcd-5ec50244d157" SourceId="1" SourceUrl="http://localhost:2934/WSaritmetica.svc?disco" />
+    <MetadataFile FileName="WSaritmetica.xsd" MetadataType="Schema" ID="b9792f49-0c87-44d5-ad2c-4d4f9a1c884d" SourceId="1" SourceUrl="http://localhost:2934/WSaritmetica.svc?xsd=xsd2" />
+    <MetadataFile FileName="WSaritmetica1.xsd" MetadataType="Schema" ID="68dcc6bf-74e1-4010-a977-a9356d022dd8" SourceId="1" SourceUrl="http://localhost:2934/WSaritmetica.svc?xsd=xsd1" />
+    <MetadataFile FileName="WSaritmetica2.xsd" MetadataType="Schema" ID="41c5917d-fbff-4b9c-b408-fc93f2c7cb4e" SourceId="1" SourceUrl="http://localhost:2934/WSaritmetica.svc?xsd=xsd0" />
+    <MetadataFile FileName="WSaritmetica.wsdl" MetadataType="Wsdl" ID="a1ee03aa-d02d-4bd4-bf9a-a0e7e5f206ab" SourceId="1" SourceUrl="http://localhost:2934/WSaritmetica.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
